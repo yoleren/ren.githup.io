@@ -1,0 +1,45 @@
+/*导航条动画样式_status_black*/
+.header_status_black{
+	transition: all 1s;
+	position: fixed;
+	z-index: 5;
+	background-color: rgba(255,255,255,.5);
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.header_status_black .nav-item{
+	color: #000;
+}
+
+/*侧边栏动画样式_status_in*/
+.outline,
+.outline2{
+	opacity: 0;
+	transition: all 1s;
+	transform: translate(100%,0);
+}
+.outline_status_in{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+/*顶部导航动画*/
+.header_animate_fadeInDown{
+    animation-duration: 2s;
+    animation-name: fadeInDown;
+}
+
+/*创建动画*/
+@keyframes fadeInDown{
+    0%{
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+

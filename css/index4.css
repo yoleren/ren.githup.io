@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: #eee;
+}
+.caption{
+    height: 34px;
+    line-height: 34px;
+    background-color: #c1c1c1;
+    top: 50px;
+    left: 50%;
+    margin-left: -400px;
+    border-radius: 50px;
+    float: left;
+    position: relative;
+}
+.caption .nav-item{
+     font-size: 15px;
+     display: block;
+     height: 87px;
+     float: left;
+     width: 100px;
+     text-align: center;
+     padding: 0 10px;
+     position: relative;
+     text-decoration: none;
+     font-family: "苹方";
+     z-index: 3;
+     color: #fff;
+ }
+.nav-line{
+     background: linear-gradient(to left, #fa7911, #faa40f);
+     width: 120px;
+     height: 34px;
+     border-radius: 50px;
+     position: absolute;
+     left: 0;
+     top: 0;
+     transition: all .5s;
+ }  
+ #videoShow{
+    width: 960px;
+    height: 400px;
+    background-size: 100%;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -400px;
+    margin-bottom: 100px;
+    display: none;
+ }
+ #video span img{
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: 50px;
+ }
+.bg1{
+    background: url(../img/飞利浦扫地机.jpg) no-repeat;
+    width: 960px;
+    height: 2100px;
+    background-size: 100%;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -400px;
+    margin-bottom: 100px;
+}
+.bg2{
+    background: url(../img/阿格瑞斯.png) no-repeat;
+    width: 960px;
+    height: 600px;
+    background-size: 100%;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -400px;
+    display: none;
+}
+.bg3{
+    background: url(../img/新贝辅食机.png) no-repeat;
+    width: 960px;
+    height: 900px;
+    background-size: 100%;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -400px;
+    display: none;
+}
+.bg4{
+    background: url(../img/公版云.png) no-repeat;
+    width: 960px;
+    height: 2600px;
+    background-size: 100%;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -400px;
+    display: none;
+}
+.backss a{
+    position: absolute;
+    top: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "苹方";
+    background-color: #ccc;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 10px;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    margin-left: -80px;
+    padding-left: 20px;
+}
+.backss a:hover{
+    background-color: #999;
+}
+.content-tab{
+    width: 1200px;
+    position: relative;
+}
+.outline2{
+    position: fixed;
+    padding: 5px 10px;
+    right: 0;
+    box-shadow: 0px 4px 12px 0px rgba(7, 17, 27, 0.1);
+    bottom: 30px;
+    width: 40px;
+    height: 48px;
+    margin: 5px 8px 0px;
+    border-top: 1px solid rgb(238, 238, 238);
+    border-radius: 50px;
+}
+.outline2 a{
+    width: 45px;
+    height: 45px;
+    background: url(../img/向上前.png) no-repeat;
+    display: block;
+    background-size: 100%;
+    margin-left: -1px;
+    opacity: .5;
+}
+.outline2:hover{
+    background: rgba(181,181,181);
+}
+.outline2 a:hover{
+    opacity: 1;
+}
